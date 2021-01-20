@@ -81,6 +81,10 @@ p {
 
 a { text-decoration: none; }
 audio { display:none;}
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.09;
+</script>
 </style>
 <body>
 
@@ -126,10 +130,7 @@ With that said, we extend our warmest welcomes and are excited to see how things
 <audio autoplay id="myaudio">
   <source src="music1.mp3">
 </audio>
-<script>
-  var audio = document.getElementById("myaudio");
-  audio.volume = 0.09;
-</script>
+
 <br clear="all">
 <footer style="height:auto; background-color:white;" align="center">
 	<p>Last Update 20 January 2021. All Rights Reserved.</p>
